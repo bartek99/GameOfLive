@@ -13,7 +13,7 @@ public class Grid implements Patterns, Rules {
     private int[][] grid;
     private boolean[][] isAlive;
 
-    /**Create 2 two-dimensional table and attribute them value 0(or false)*/
+    /**Create 2 two-dimensional array and attribute them value 0(or false)*/
     public Grid() {
         width = 50;
         height = 50;
@@ -40,26 +40,26 @@ public class Grid implements Patterns, Rules {
         return height;
     }
     /**Getter of grid
-     * @return table 'grid'
+     * @return array 'grid'
      */
     public int[][] getGrid() {
         return grid;
     }
     /**Getter of isAlive
-     * @return table 'isAlive'
+     * @return array 'isAlive'
      */
     public boolean[][] getIsAlive() {
         return isAlive;
     }
 
     /**Setter of grid
-     * @param grid new table
+     * @param grid new array
      */
     public void setGrid(int[][] grid) {
         this.grid = grid;
     }
     /**Setter of isAlive
-     * @param isAlive new table
+     * @param isAlive new array
      */
     public void setIsAlive(boolean[][] isAlive) {
         this.isAlive = isAlive;
