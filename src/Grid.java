@@ -13,7 +13,7 @@ public class Grid implements Patterns, Rules {
     private int[][] grid;
     private boolean[][] isAlive;
 
-    /**Create 2 two-dimensional table and attribute them value 0(or false)*/
+    /**Create 2 two-dimensional array and attribute them value 0(or false)*/
     public Grid() {
         width = 50;
         height = 50;
