@@ -84,7 +84,7 @@ public class Swing extends JFrame implements KeyListener {
         }
 
 
-        for(int i2=0;i2<100;i2++){
+        for(int i2=0;i2<200;i2++){
             grid.simulation();
             tab = grid.getGrid();
             for (int i = 0; i < grid.getHeight(); i++) {
