@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="GameOfLive:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/GameOfLive_jar</output-path>
-    <root id="archive" name="GameOfLive.jar">
-      <element id="module-output" name="GameOfLive" />
-    </root>
-  </artifact>
-</component>
