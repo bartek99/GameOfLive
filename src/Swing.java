@@ -41,6 +41,7 @@ public class Swing extends JFrame implements KeyListener {
         addKeyListener(this);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
+
     }
 
     /**The method draw board, fill it according pattern
